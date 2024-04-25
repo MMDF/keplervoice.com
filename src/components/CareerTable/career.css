@@ -1,0 +1,43 @@
+.careers-info{
+    padding:25px 90px 50px 90px;
+
+}
+
+#table-style {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+    
+  }
+  
+  #table-style td,
+  #table-style th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    white-space: nowrap;
+    text-align: left;
+  }
+  
+  #table-style tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  #table-style tr:hover {
+    background-color: #ddd;
+  }
+  
+  #table-style th {
+    width: 50%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #128e82;
+    color: white;
+  }
+  @media only screen and (max-width:480px){
+    #table-style td,
+    #table-style th{
+      font-size: 12px;
+    }
+  }

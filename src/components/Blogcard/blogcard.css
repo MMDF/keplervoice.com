@@ -1,0 +1,54 @@
+.service_card{
+    max-width: 400px;
+    background-color: #fff;
+    box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.lcon_service{
+     width:100%;
+    height: 200px;
+    margin: auto;
+}
+
+.icon_class{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.heading_serv{
+    font-size: 36px;
+    font-weight: 700;
+}
+.readmo{
+    margin-top: auto;
+}
+.readmore {
+    width: 100%;
+    margin-top: auto !important; 
+    align-self: center; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #007bff; 
+    color: #fff; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .readmore:hover {
+    background-color: #0056b3; 
+  }
+
+  .service_paragrap {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 4;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }

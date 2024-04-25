@@ -1,0 +1,33 @@
+.Testimonial_cards{
+    height: 380px;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    box-shadow: -2px 0px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 15px;
+    margin-bottom: 50px;
+    max-width: 320px;
+    
+}
+.testi_image{
+    background-color: rgb(87, 87, 243);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.testimonialPic{
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.testimonial_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}

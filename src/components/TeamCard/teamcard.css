@@ -1,0 +1,19 @@
+.Team_cards{
+    max-width: 400px;
+    background-color: #fff;
+    box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    min-height: fit-content;
+}
+.team_image{
+    width:250px ;
+    height: 200px; 
+
+}
+.teampic{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
