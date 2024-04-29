@@ -1,8 +1,10 @@
 import React from 'react'
+import dev from '../Assets/DS.jpeg'
 
 const DevServices = () => {
   return (
     <div>
+      <div className="servicesImages"><img src={dev} alt="development" /></div>
     <div className="features-bg">
       <h1 className="about_heading">WEB DEVELOPMENT SERVICES</h1>
       <p className="about_paragraph">

@@ -32,8 +32,8 @@
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #128e82;
-    color: white;
+    background-color: #79ffe2;
+    color: #000;
   }
   @media only screen and (max-width:480px){
     #table-style td,

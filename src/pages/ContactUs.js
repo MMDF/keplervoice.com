@@ -13,6 +13,7 @@ import {
 import { Link } from "react-router-dom";
 import emailjs from "@emailjs/browser";
 import EmailToMe from "../components/EmailToMe";
+import contact_banner from "../Assets/contact.jpg"
 
 
 
@@ -21,8 +22,10 @@ import EmailToMe from "../components/EmailToMe";
 const ContactPage = () => {
  
   return (
-    <div className="contact_page">
+    <><div className="servicesImages"><img src={contact_banner} loading="lazy" alt="about" /></div><div className="contact_page">
+
       <div className="form_portion">
+
         <div className="contact_content">
           <h1>Get In Touch</h1>
           <p>
@@ -33,88 +36,88 @@ const ContactPage = () => {
             <ContactMethod
               svg={<Call />}
               waytocontact={"PHONE"}
-              contentofway={"+91 9151041415"}
-            />
+              contentofway={"+91 9151041415"} />
             <ContactMethod
               svg={<Mail />}
               waytocontact={"EMAIL"}
-              contentofway={"hr@keplervoice.com"}
-            />
+              contentofway={"hr@keplervoice.com"} />
             <ContactMethod
               svg={<Location />}
               waytocontact={"LOCATION"}
-              contentofway={"43/33 T.B Sapru Road,Civil Lines,Prayagraj 211012"}
-            />
+              contentofway={"43/33 T.B Sapru Road,Civil Lines,Prayagraj 211012"} />
           </div>
           <div className="icon_portion">
             <Link
               to="https://www.facebook.com/keplervoice"
               className="link_css"
+              alt="facebookicon"
             >
               <Facebook />
             </Link>
-            <Link to="https://twitter.com/VoiceKepler" className="link_css">
+            <Link to="https://twitter.com/VoiceKepler" className="link_css" alt="twitterIcon">
               <Twitter />
             </Link>
             <Link
               to="https://www.instagram.com/kepler_voice/"
               className="link_css"
+              alt="instagramIcon"
             >
               <Instagram />
             </Link>
             <Link
               to="https://www.linkedin.com/company/keplervoice/"
               className="link_css"
+              alt="LinkedinIcon"
             >
               <Linkedin />
             </Link>
           </div>
         </div>
-        
+
         {/* <div className="contact_form">
-          <div className="card">
-            <h1 className="login">Contact Us</h1>
-            <label for="fname" className="head">
-              User Name
-            </label>
-            <br />
-            <input
-              type="text"
-              id="fname"
-              name="fname"
-              className="input"
-             
-            />
+      <div className="card">
+        <h1 className="login">Contact Us</h1>
+        <label for="fname" className="head">
+          User Name
+        </label>
+        <br />
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          className="input"
+         
+        />
 
-            <label for="fpassword" className="head">
-              Email
-            </label>
-            <br />
-            <input
-              type="text"
-              id="fpassword"
-              name="fpassword"
-              className="input"
-             
-            />
+        <label for="fpassword" className="head">
+          Email
+        </label>
+        <br />
+        <input
+          type="text"
+          id="fpassword"
+          name="fpassword"
+          className="input"
+         
+        />
 
-            <h3 className="head">Say Something</h3>
+        <h3 className="head">Say Something</h3>
 
-            <textarea
-              required
-              placeholder="ENTER YOUR  QUESTION "
-              className="input"
-              
-            />
+        <textarea
+          required
+          placeholder="ENTER YOUR  QUESTION "
+          className="input"
+          
+        />
 
-            <br />
-            <button className="btn" >Send Message</button>
-          </div>
-        </div> */}
-        <EmailToMe />
-        
+        <br />
+        <button className="btn" >Send Message</button>
       </div>
-    </div>
+    </div> */}
+        <EmailToMe />
+
+      </div>
+    </div></>
   );
 };
 

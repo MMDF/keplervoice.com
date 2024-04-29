@@ -1,11 +1,14 @@
 import React from "react";
 import "../components/CareerTable/career.css"
 import Careertable from "../components/CareerTable/Careertable";
+import career_banner from "../Assets/careerpage (1).jpeg"
+import { Link } from "react-router-dom";
 
 
 function Career() {
   return (
     <>
+    <div className="servicesImages"><img src={career_banner} loading="lazy" alt="about" /></div>
       <div className="careers-info">
         <h1 className="about_heading">Careers</h1>
         <h3 className="about_heading">
@@ -20,7 +23,7 @@ function Career() {
           revolutionize the way businesses operate.
         </p>
       
-     <Careertable/>
+     <Link to="/contactus"><Careertable/></Link>
       </div>
     </>
   );

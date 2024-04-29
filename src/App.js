@@ -19,12 +19,14 @@ import DetailCloud from './pages/DetailCloud';
 import DetailBPO from './pages/DetailBPO';
 import Blog from './pages/Blog';
 import BlogDeatail from './pages/BlogDeatail';
+import SocialIcon from './components/SocialIcon/SocialIcon';
 
 function App() {
   return (
    
       <div className="App">
       <Nav/>
+      <SocialIcon/>
       <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/about' element={<About/>}/>

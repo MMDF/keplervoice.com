@@ -1,9 +1,11 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "../pages/Common.css";
+import ReCAPTCHA from "react-google-recaptcha";
 
 function EmailToMe() {
   const form = useRef();
+  const [captchaVal, setCaptchaVal] = useState(null);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [number, setNumber] = useState("");
@@ -36,14 +38,14 @@ function EmailToMe() {
 
   return (
     <div className="contact_form">
-      <div className="card">
+      <div className="cardcontact">
         <h1 className="login">Contact Us</h1>
         <form ref={form} onSubmit={sendEmail}>
-          <label className="head">Name</label>
+          <label className="head" alt="name">Name</label>
           <br />
           <input type="text" name="user_name" className="input"   value={name}
             onChange={(e) => setName(e.target.value)} />
-          <label className="head">Email</label>
+          <label className="head" alt="email">Email</label>
           <br />
           <input type="text" name="user_email" className="input"    value={email}
             onChange={(e) => setEmail(e.target.value)}/>
@@ -51,13 +53,18 @@ function EmailToMe() {
           <br />
           <input type="text" name="user_number" className="input"    value={number}
             onChange={(e) => setNumber(e.target.value)}/>
-          <label className="head">Message</label>
+          <label className="head" alt="message">Message</label>
           <br />
           <textarea name="message"  className="input"   value={message}
             onChange={(e) => setMessage(e.target.value)}/>
-            {alertMessage && <div className="alert text">{alertMessage} jhgsdjhgs</div>}
+            {alertMessage && <div className="alert text">{alertMessage} Thank You!</div>}
           
-          <button className="btn" type="submit" value="Send" >
+          <ReCAPTCHA
+            className="reCaptcha-style"
+            sitekey="6LcMecopAAAAAPuzttniGRXYq45TolrDeX0y4GtB"
+            onChange={(val) => setCaptchaVal(val)}
+          />
+          <button className="btn" type="submit" value="Send" disabled={!captchaVal} >
             Send Message
           </button>
           

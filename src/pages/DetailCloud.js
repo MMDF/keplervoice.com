@@ -1,8 +1,10 @@
 import React from 'react'
+import cloud from '../Assets/CS.jpeg'
 
 const DetailCloud = () => {
   return (
     <div>
+      <div className="servicesImages"><img src={cloud} alt="bpo" /></div>
     <div className="features-bg">
       <h1 className="about_heading">INTERNET & CLOUD SERVICES</h1>
       <p className="about_paragraph">

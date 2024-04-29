@@ -7,9 +7,11 @@ import team3 from "../Assets/team 3.png";
 import imageapproach from "../Assets/apporach.jpg";
 import TeamCard from "../components/TeamCard/TeamCard";
 import "../pages/Common.css";
+import about from '../Assets/about.jpeg'
 const About = () => {
   return (
     <div className="About_portion">
+      <div className="servicesImages"><img src={about} loading="lazy" alt="about" /></div>
       <div className="About_Us">
         <h1 className="about_heading">ABOUT US</h1>
         <p className="about_paragraph">Dream BIG BUILD BIGGER</p>
@@ -17,7 +19,7 @@ const About = () => {
       <div className="Empowering_portion">
         <div className="text_portion">
           <h1 className="about_heading">Empowering Innovation</h1>
-          <h2>Our Mission to Revolutionize the Business Landscape</h2>
+          <h2 className="about_subheading">Our Mission to Revolutionize the Business Landscape</h2>
           <p className="about_paragraph_sub">
             At Kepler Voice, our mission is to provide businesses with
             innovative and sustainable Business and IT Solutions to optimize
@@ -34,16 +36,16 @@ const About = () => {
           </p>
         </div>
         <div className="image_portion">
-          <img src={imageImpower} alt="" className="image_emporing" />
+          <img src={imageImpower} loading="lazy" alt="imageimpower" className="image_emporing" />
         </div>
       </div>
       <div className="Transitioning_portion Empowering_portion">
         <div className="image_portion">
-          <img src={imagefuture} alt="" className="image_emporing" />
+          <img src={imagefuture} loading="lazy" alt="imagefuture" className="image_emporing" />
         </div>
         <div className="text_portion">
           <h1 className="about_heading">Transitioning to a Smarter Future</h1>
-          <h2>Our Innovative Solutions for Business Operations</h2>
+          <h2 className="about_subheading">Our Innovative Solutions for Business Operations</h2>
           <p className="about_paragraph_sub">
             Our world is constantly changing, and technology is driving that
             change faster than ever. At our company, we recognize the need to
@@ -77,18 +79,21 @@ const About = () => {
           <TeamCard
             test_name={"Mr Rajeev Lochan"}
             team1_image={team1}
+            role={"Director"}
             test_des={"LINKEDIN"}
           />
 
           <TeamCard
             test_name={"Mr Pranit Pandey"}
             team1_image={team2}
+            role={"Director"}
             test_des={"LINKEDIN"}
           />
 
           <TeamCard
             test_name={"Mr Abheuday Mishra"}
             team1_image={team3}
+            role={"Managing Director"}
             test_des={"LINKEDIN"}
           />
         </div>

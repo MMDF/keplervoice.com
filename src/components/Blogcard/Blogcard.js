@@ -52,13 +52,13 @@ const BlogCard = () => {
             <div className='service_card'>
             <div className='icon_content_portion'>
                 <div className='lcon_service'>
-                    <img src={key.mainImg} alt='' className='icon_class'/>
+                    <img src={key.mainImg} loading="lazy" alt='blogard' className='icon_class'/>
                 </div>
                 <h1 className='service_heading'>{key.title}</h1>
     
             </div>
             <p className='service_paragrap '>{key.paragraph}</p>
-           <Link to={`/blog/${key.id}`} className='readmo' ><button className='readmore'>ReadMore</button></Link>
+           <Link to={`/blog/${key.id}`} className='readmo' alt="Readmore" ><button className='readmore'>ReadMore</button></Link>
         </div>
         
         )

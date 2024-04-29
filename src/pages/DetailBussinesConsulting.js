@@ -1,8 +1,10 @@
 import React from 'react'
+import bc from '../Assets/BC.jpeg'
 
 const DetailBussinesConsulting = () => {
   return (
     <div>
+      <div className="servicesImages"><img src={bc} alt="bc" /></div>
     <div className="features-bg">
       <h1 className="features-heading">BUSINESS CONSULTING SERVICES</h1>
       <p className="about_paragraph">

@@ -1,9 +1,8 @@
 .footer{
     
     padding: 35px 120px 35px 120px;
-    border-top-left-radius: 60px; 
-    border-top-right-radius: 60px;
-    background-color: #101317;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../../Assets/footer.jpeg) no-repeat;
+    background-size: cover;
     color: white;
     text-align: left;
 
@@ -23,10 +22,17 @@
     display: flex;
     justify-content:space-evenly;
     align-items: baseline;
-    color: #7efde0;
+    color: #0089b1;
     
 
 }
+
+.logo-resize {
+    width: 150px;
+    height: 60px;
+    object-fit: cover;
+}
+
 .logo_color{
     color: #7efde0;
 }
@@ -40,7 +46,7 @@ ul {
   }
   .link_css{
     text-decoration: none;
-    color: #00b3b3;
+    color: #7efde0;
   }
   
   .copywrite_portion{

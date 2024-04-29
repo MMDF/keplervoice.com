@@ -8,10 +8,12 @@ import DS from "../Assets/DS.jpeg";
 import CS from "../Assets/CS.jpeg";
 import GSS from "../Assets/GSS.jpeg";
 import DG from "../Assets/DS.jpeg";
+import service from '../Assets/service.jpg'
 
 const Service = () => {
   return (
     <div className="service_portion">
+      <div className="servicesImages"><img src={service} loading="lazy" alt="about" /></div>
       <div className="About_Us">
         <h1 className="about_heading">OUR SERVICES</h1>
         <p className="about_paragraph">

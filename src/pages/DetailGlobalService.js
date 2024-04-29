@@ -1,8 +1,10 @@
 import React from 'react'
+import global from '../Assets/GSS.jpeg'
 
 const DetailGlobalService = () => {
   return (
     <div>
+      <div className="servicesImages"><img src={global} alt="bpo" /></div>
     <div className="features-bg">
       <h1 className="about_heading">Global Support Services</h1>
       <p className="about_paragraph">

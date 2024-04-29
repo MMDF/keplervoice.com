@@ -20,7 +20,7 @@ const Nav = () => {
   <div className='nav'>
     <div className='logo_portion'>
         <div className='logo'>
-           <Link to="/"> <img src={logo_image} alt='logo' className='logo_image'/></Link>
+           <Link to="/" alt=""> <img src={logo_image} alt='logo' className='logo_image'/></Link>
         </div>
     </div>
     <div className='menu' onClick={toggleMenu}>
@@ -28,12 +28,12 @@ const Nav = () => {
       <HumburgIcon/>
     </div>
     <div className={`page_portion ${showMenu ? 'show' : ''}`} onClick={handleClose}>
-        <Link to="/" className='nav_content_css'><h3>Home</h3></Link>
-        <Link to="/about" className='nav_content_css'><h3>About Us</h3></Link>
-        <Link to="/service" className='nav_content_css'><h3>Service</h3></Link>
-        <Link to="/blog" className='nav_content_css'><h3>Blog</h3></Link>
-        <Link to="/career" className='nav_content_css'><h3>Careers</h3></Link>
-        <Link to="/contactus" className='nav_content_css'><h3>Contact Us</h3></Link>
+        <Link to="/" className='nav_content_css' alt="home"><h3 className='link_heading'>Home</h3></Link>
+        <Link to="/about" className='nav_content_css' alt="about"><h3 className='link_heading'>About Us</h3></Link>
+        <Link to="/service" className='nav_content_css' alt="service"><h3 className='link_heading'>Service</h3></Link>
+        <Link to="/blog" className='nav_content_css' alt="blog"><h3 className='link_heading'>Blog</h3></Link>
+        <Link to="/career" className='nav_content_css' alt="careers"><h3 className='link_heading'>Careers</h3></Link>
+        <Link to="/contactus" className='nav_content_css'alt="contact"><h3 className='link_heading'>Contact Us</h3></Link>
     </div>
   </div>
   )

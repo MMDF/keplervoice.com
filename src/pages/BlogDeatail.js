@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { BLOGS_DATA } from "../components/Blogcard/Blogcard";
 import "./Common.css";
 
+
 const BlogDeatail = () => {
   const params = useParams();
   const blogId = params.id;
@@ -14,17 +15,19 @@ const BlogDeatail = () => {
 
   return (
     <>
-      <div>
-        <h1>{data?.title}</h1>
-      </div>
+    
+      
       <div className="main-img">
         <img src={data?.mainImg}  className="image_blog"/>
       </div>
+      <div>
+        <h1>{data?.title}</h1>
+      </div>
       <div>{data?.paragraph}</div>
       <div className="multiple-img">
-        <img src={data?.img1} />
-        <img src={data?.img2} />
-        <img src={data?.img3} />
+        <img src={data?.img1} alt="imageblog"/>
+        <img src={data?.img2} alt="imageblog"/>
+        <img src={data?.img3} alt="imageblog"/>
       </div>
     </>
   );

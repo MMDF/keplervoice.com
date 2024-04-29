@@ -1,8 +1,10 @@
 import React from 'react'
+import bpon from '../Assets/BNVS.jpeg'
 
 const DetailBPON = () => {
   return (
     <div>
+      <div className="servicesImages"><img src={bpon} alt="bpo" /></div>
     <div className="features-bg">
       <h1 className="features-heading">BPO Non-Voice Services</h1>
       <h2>Elevate Your Customer Engagement</h2>

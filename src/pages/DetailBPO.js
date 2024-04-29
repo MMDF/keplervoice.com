@@ -1,8 +1,11 @@
 import React from "react";
+import "../pages/Common.css"
+import bpo from '../Assets/BPO.jpeg'
 
 const DetailBPO = () => {
   return (
-    <div>
+    <div className="bg-color">
+      <div className="servicesImages"><img src={bpo} alt="bpo" /></div>
       <div className="features-bg">
         <h1 className="features-heading">BPO Voice Services</h1>
         <h2 >
