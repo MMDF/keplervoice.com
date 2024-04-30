@@ -94,8 +94,8 @@ const Home = () => {
           <h2 className="heading_serv">OUR BLOGS</h2>
           <div className="blog-portion">
             <div className="blog-content">
-              <h1>Blog</h1>
-              <p>
+              <h1 className="blog-heading">Blog</h1>
+              <p className="blog-para">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Quibusdam, hic. Error, iure odio pariatur ullam soluta ratione
                 iusto exercitationem reprehenderit eius odit, maxime cupiditate
