@@ -29,6 +29,7 @@
     width: 500px;
     height: 200px;
     object-fit: cover;
+    object-position: top;
     border-radius: 10px 0 0 10px;
   }
   
@@ -59,4 +60,10 @@
       opacity: 1;
       transform: translateY(0);
     }
+}
+
+@media only screen and (max-width: 480px) {
+  .testimonials-card img {
+    height: 250px
+  }
 }
