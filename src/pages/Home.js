@@ -56,7 +56,7 @@ const Home = () => {
                 to community sets us apart. Join us in the journey to seamless
                 communication.
               </p>
-              <button className="about-btn">Read More</button>
+              <Link to="/about" ><button className="about-btn">Read More</button></Link>
             </div>
           </div>
         
