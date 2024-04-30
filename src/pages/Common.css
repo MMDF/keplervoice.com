@@ -65,8 +65,9 @@
     }
 
     .flex_card_portion{
-        display: flex;
-        justify-content: space-between;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(3,1fr);
         align-items: center;
         margin-bottom: 50px;
         flex-wrap: wrap;
@@ -490,8 +491,8 @@
   
   @media only screen and (max-width:786px) {
     .flex_card_portion{
-      display: flex;
-      flex-direction: column;
+      display: grid;
+      grid-template-columns: 1fr;
     }
     .introduction_section {
       padding: 20px;
