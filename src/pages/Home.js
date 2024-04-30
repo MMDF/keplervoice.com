@@ -15,8 +15,11 @@ import blogImage from "../Assets/bloghero.jpeg";
 import { Link } from "react-router-dom";
 import Nav from "../components/Navbar/Nav";
 import abtpic from "../Assets/callgirl.jpeg";
+import poster from '../Assets/poster.png'
 
 const Home = () => {
+  
+  
   return (
     <>
       <div className="hero_section">
@@ -27,6 +30,7 @@ const Home = () => {
             autoPlay
             loop
             muted
+            poster={poster}
             className="video_class"
             
           />
