@@ -54,6 +54,12 @@
         /* text-shadow: 1px 1px 3px #000000; */
         border-radius: 10px;
     }
+
+    .text-box .tagline {
+      font-weight: 600;
+      font-size: 1.3rem;
+    }
+
     .card_portion{
         padding: 20px;
     }
