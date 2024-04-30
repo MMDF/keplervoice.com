@@ -1,9 +1,12 @@
 import React from 'react'
 import "../pages/Common.css"
+import tnc from '../Assets/tnc.jpg'
 
 const TermandCondition = () => {
   return (
-    <><div class="features-bg">
+    <>
+    <div class="features-bg">
+    <div className="servicesImages"><img src={tnc} alt="tnc" /></div>
           <h2 class="features-heading">Terms and Conditions</h2>
       </div><div class="container">
               <section class="border-boxing">

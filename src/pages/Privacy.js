@@ -1,10 +1,12 @@
 import React from "react";
 import "../pages/Common.css"
+import pp from '../Assets/Privacy-Policy.jpg'
 
 const Privacy = () => {
   return (
     <>
       <div class="features-bg">
+      <div className="servicesImages"><img src={pp} alt="privacy policy" /></div>
         <h2 class="features-heading">Privacy Policy</h2>
       </div>
       <div class="container">
