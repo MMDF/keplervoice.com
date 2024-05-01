@@ -133,7 +133,6 @@ const DetailBPO = () => {
         <h1 className="about_heading">
           Outbound Services: Expanding Your Reach and Opportunities
         </h1>
-        <h2></h2>
         <p className="about_paragraph_sub">
           <p>
             <strong>Lead Generation</strong>Our Outbound Services are geared

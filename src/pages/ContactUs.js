@@ -1,4 +1,4 @@
-import React, { useState,useRef } from "react";
+import React from "react";
 import "../pages/Common.css";
 import ContactMethod from "../components/ContactMethod/ContactMethod";
 import {
@@ -11,7 +11,6 @@ import {
   Twitter,
 } from "../components/Svg/Svg";
 import { Link } from "react-router-dom";
-import emailjs from "@emailjs/browser";
 import EmailToMe from "../components/EmailToMe";
 import contact_banner from "../Assets/contact.jpg"
 

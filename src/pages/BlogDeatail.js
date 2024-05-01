@@ -7,11 +7,8 @@ import "./Common.css";
 const BlogDeatail = () => {
   const params = useParams();
   const blogId = params.id;
-  console.log("blog", blogId);
 
   const [data, setData] = useState(BLOGS_DATA?.find((k) => k?.id == blogId));
-
-  console.log("data", data);
 
   return (
     <>

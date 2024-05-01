@@ -57,7 +57,6 @@ const DetailCloud = () => {
     
       <div className="text_portion">
         <h1 className="about_heading">Cloud Services: Unlocking the Power of the Cloud</h1>
-        <h2></h2>
         <p className="about_paragraph_sub">
           <p>
             <strong>Scalable Cloud Solutions:</strong>

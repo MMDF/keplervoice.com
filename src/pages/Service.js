@@ -7,7 +7,6 @@ import BC from "../Assets/BC.jpeg";
 import DS from "../Assets/DS.jpeg";
 import CS from "../Assets/CS.jpeg";
 import GSS from "../Assets/GSS.jpeg";
-import DG from "../Assets/DS.jpeg";
 import service from '../Assets/service.jpg'
 
 const Service = () => {
@@ -69,13 +68,6 @@ const Service = () => {
           }
           goto={"/globalservice"}
         />
-        {/* <ServiceCard
-          icon={DG}
-          heading={"Digital Marketing Services"}
-          paragraph={
-            "In today's digital landscape, a robust online presence is essential for business success. Our digital marketing solutions are tailored to boost your brand's visibility, engage your target audience, and drive tangible results. From strategic Search Engine Optimization (SEO) and impactful Social Media Management to targeted Pay-Per-Click Advertising (PPC), we ensure your brand stands out. Additionally, our Content Marketing and Email Marketing strategies establish authority and nurture customer relationships."
-          }
-        /> */}
       </div>
     </div>
   );

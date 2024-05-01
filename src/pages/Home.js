@@ -5,7 +5,6 @@ import ServiceCard from "../components/Servicecard/ServiceCard";
 import bpo_icon from "../Assets/BPO.jpeg";
 import BC from "../Assets/BC.jpeg";
 import web_icon from "../Assets/DS.jpeg";
-import dm_icon from "../Assets/digital-marketing-with-icons-business-people_53876-94833.avif";
 import ClientCard from "../components/clientCard/ClientCard";
 import Testimonialcard from "../components/TestimonialCard/Testimonialcard";
 import test_1 from "../Assets/c1.jpg";

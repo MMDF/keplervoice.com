@@ -17,14 +17,14 @@ function Careertable() {
             <td>Graphic Designer</td>
             <td>Internship</td>
             <td>
-              <a href="" alt="apply now">Apply Now</a>
+              <a href="#" alt="apply now">Apply Now</a>
             </td>
           </tr>
           <tr>
             <td>Backend Developer</td>
             <td>Full Time</td>
             <td>
-              <a href="" alt="apply now">Apply Now</a>
+              <a href="#" alt="apply now">Apply Now</a>
             </td>
           </tr>
         </tbody>

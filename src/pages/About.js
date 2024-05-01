@@ -4,7 +4,6 @@ import imagefuture from "../Assets/future.jpg";
 import team1 from "../Assets/team1.jpeg";
 import team2 from "../Assets/team2.jpg";
 import team3 from "../Assets/team 3.png";
-import imageapproach from "../Assets/apporach.jpg";
 import TeamCard from "../components/TeamCard/TeamCard";
 import "../pages/Common.css";
 import about from '../Assets/about.jpeg'

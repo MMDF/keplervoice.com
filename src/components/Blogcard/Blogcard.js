@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../Blogcard/blogcard.css";
 import { Link } from "react-router-dom";
-import axios from "axios";
 
 export const BLOGS_DATA = [
     {
