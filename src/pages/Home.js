@@ -14,11 +14,9 @@ import blogImage from "../Assets/bloghero.jpeg";
 import { Link } from "react-router-dom";
 import Nav from "../components/Navbar/Nav";
 import abtpic from "../Assets/callgirl.jpeg";
-import poster from '../Assets/poster.png'
+import poster from "../Assets/poster.png";
 
 const Home = () => {
-  
-  
   return (
     <>
       <div className="hero_section">
@@ -31,7 +29,6 @@ const Home = () => {
             muted
             poster={poster}
             className="video_class"
-            
           />
           <Nav />
           <div class="content">
@@ -45,7 +42,7 @@ const Home = () => {
         <div className="about-portion">
           <div className="about-half about-container">
             <div className="details">
-            <h1>
+              <h1>
                 About <span className="heading-bold">Us</span>
               </h1>
               <p className="para_intro">
@@ -55,10 +52,12 @@ const Home = () => {
                 to community sets us apart. Join us in the journey to seamless
                 communication.
               </p>
-              <Link to="/about" ><button className="about-btn">Read More</button></Link>
+              <Link to="/about">
+                <button className="about-btn">Read More</button>
+              </Link>
             </div>
           </div>
-        
+
           <div className="about-half about-img">
             <img src={abtpic} loading="lazy" alt="about image" />
           </div>
@@ -99,13 +98,17 @@ const Home = () => {
             <div className="blog-content">
               <h1 className="blog-heading">Blog</h1>
               <p className="blog-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quibusdam, hic. Error, iure odio pariatur ullam soluta ratione
-                iusto exercitationem reprehenderit eius odit, maxime cupiditate
-                unde tenetur maiores in commodi voluptatibus optio consequuntur
-                quod ab similique doloremque. Dicta, eos quibusdam amet
-                doloribus earum, accusantium vero, recusandae est sit magni
-                perspiciatis voluptatem!
+                "Welcome to our special place online where you can learn and get
+                inspired! Dive into our interesting blog, full of valuable
+                information, motivation, and ideas. We cover everything from new
+                technology trends to timeless advice for personal and
+                professional growth. Each post is written to teach, entertain,
+                and empower you. Join our community of enthusiastic readers and
+                thinkers as we explore lots of different topics, sparking
+                curiosity and creativity. Whether you want helpful tips,
+                thought-provoking insights, or just a moment to think, our blog
+                has something for you. Come join us on a journey of learning and
+                let your imagination soar!"
               </p>
               <Link to="/blog" alt="">
                 <button className="blog_btn">Read More</button>
@@ -135,13 +138,13 @@ const Home = () => {
             <Testimonialcard
               img={test_2}
               loading="lazy"
-              message="What stood out to me was the level of collaboration and communication throughout the project. The Kepler Voice team took the time to understand our business and our goals, and worked closely with us to develop a customized solution that met our unique needs."
+              message="I was really impressed by the teamwork and communication during the project. The Kepler Voice team really listened to what we needed for our business and worked closely with us to create a solution that fit perfectly"
               name="Fr. James White"
             />
             <Testimonialcard
               img={test_3}
               loading="lazy"
-              message="What stood out to me was the level of collaboration and communication throughout the project. The Kepler Voice team took the time to understand our business and our goals, and worked closely with us to develop a customized solution that met our unique needs."
+              message="The attention to detail from the Kepler Voice team was exceptional. They really took the time to understand our specific requirements and crafted a solution that addressed them perfectly. Their dedication to meeting our needs was evident throughout the entire project"
               name="Steve Davidson"
             />
           </div>
