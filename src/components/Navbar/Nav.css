@@ -46,8 +46,9 @@
 .link_heading{
     font-size: 22px;
 }
-.active {
-    background-color:red;
+
+  .active{
+    color: #79ffe2;
   }
 @media (max-width: 770px) {
     .menu {
