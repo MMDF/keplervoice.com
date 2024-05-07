@@ -20,11 +20,11 @@ const Footer = () => {
               results for our clients and support businesses grow and succeed.
             </p>
             <div className="icon_portion">
-            <Link to="https://www.facebook.com/keplervoice" className="link_css" alt="facebook"><Facebook/></Link>
-            <Link to="https://twitter.com/VoiceKepler" className="link_css" alt="twitter"><Twitter/></Link>
-            <Link to="https://www.instagram.com/kepler_voice/" className="link_css" alt="instagram"><Instagram/></Link>
-            <Link to="https://www.linkedin.com/company/keplervoice/" className="link_css" alt="linkedin"><Linkedin/></Link>
-            <Link to="https://www.linkedin.com/company/keplervoice/" className="link_css" alt="whatsapp"><WhatsappIcon/></Link>
+            <Link to="https://www.facebook.com/keplervoice" className="link_css" alt="facebook" target='_blank'><Facebook/></Link>
+            <Link to="https://twitter.com/VoiceKepler" className="link_css" alt="twitter" target='_blank'><Twitter/></Link>
+            <Link to="https://www.instagram.com/kepler_voice/" className="link_css" alt="instagram" target='_blank'><Instagram/></Link>
+            <Link to="https://www.linkedin.com/company/keplervoice/" className="link_css" alt="linkedin" target='_blank'><Linkedin/></Link>
+            <Link to="https://www.linkedin.com/company/keplervoice/" className="link_css" alt="whatsapp" target='_blank'><WhatsappIcon/></Link>
             </div>
           </div>
           <div className="link_portion">

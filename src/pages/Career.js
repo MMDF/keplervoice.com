@@ -11,10 +11,10 @@ function Career() {
     <div className="servicesImages"><img src={career_banner} loading="lazy" alt="about" /></div>
       <div className="careers-info">
         <h1 className="about_heading">Careers</h1>
-        <h3 className="about_heading">
+        <h2 className="">
           Join Our Visionary Mission to Transform Businesses Through Innovation
           and Excellence
-        </h3>
+        </h2>
         <p className="about_paragraph_sub">
           At Kepler Voice, we are dedicated to unleashing the full potential of
           businesses through our visionary mission of innovation, collaboration,
@@ -23,7 +23,7 @@ function Career() {
           revolutionize the way businesses operate.
         </p>
       
-     <Link to="/contactus"><Careertable/></Link>
+    <Careertable/>
       </div>
     </>
   );

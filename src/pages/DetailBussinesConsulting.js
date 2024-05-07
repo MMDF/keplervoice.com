@@ -6,16 +6,16 @@ const DetailBussinesConsulting = () => {
     <div>
       <div className="servicesImages"><img src={bc} alt="bc" /></div>
     <div className="features-bg">
-      <h1 className="features-heading">BUSINESS CONSULTING SERVICES</h1>
-      <p className="about_paragraph">
+      <h1 className="about_heading">BUSINESS CONSULTING SERVICES</h1>
+      <p className="sub_head">
         Elevating Your Business to New Heights
       </p>
     </div>
 
     <div className="container">
       <div className="border-boxing">
-        <h1 className="about_heading">CRM</h1>
-        <h2>Customer Relationship Management</h2>
+        <h1 className="">CRM</h1>
+        <h2 className='sub_head_2'>Customer Relationship Management</h2>
         <p className="about_paragraph_sub">
           <p>
             <strong>Effective Customer Engagement:</strong>
@@ -66,8 +66,8 @@ const DetailBussinesConsulting = () => {
 
     
       <div className="text_portion">
-        <h1 className="about_heading">ERP</h1>
-        <h2>Enterprise Resource Planning</h2>
+        <h1 className="">ERP</h1>
+        <h2 className='sub_head_2'>Enterprise Resource Planning</h2>
         <p className="about_paragraph_sub">
           <p>
             <strong>Streamlined Operations:</strong>
@@ -115,7 +115,7 @@ const DetailBussinesConsulting = () => {
 
     
       <div className="text_portion">
-        <h1 className="about_heading">Marketing and Promotion</h1>
+        <h1 className="">Marketing and Promotion</h1>
         
         <p className="about_paragraph_sub">
           <p>

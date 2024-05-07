@@ -7,7 +7,7 @@ const DetailCloud = () => {
       <div className="servicesImages"><img src={cloud} alt="bpo" /></div>
     <div className="features-bg">
       <h1 className="about_heading">INTERNET & CLOUD SERVICES</h1>
-      <p className="about_paragraph">
+      <p className="sub_head">
       Seamless Connectivity, Scalable Solutions
       </p>
     </div>
@@ -15,7 +15,7 @@ const DetailCloud = () => {
     <div className="container">
       <div className="border-boxing">
       <div className="text_portion">
-        <h2 className="about_heading">Internet Services: Your Gateway to a Connected World</h2>
+        <h2 className="">Internet Services: Your Gateway to a Connected World</h2>
         <h3>High-Speed Connectivity</h3>
         <p className="about_paragraph_sub">
           <p>
@@ -56,7 +56,7 @@ const DetailCloud = () => {
 
     
       <div className="text_portion">
-        <h1 className="about_heading">Cloud Services: Unlocking the Power of the Cloud</h1>
+        <h1 className="">Cloud Services: Unlocking the Power of the Cloud</h1>
         <p className="about_paragraph_sub">
           <p>
             <strong>Scalable Cloud Solutions:</strong>

@@ -10,7 +10,7 @@ import {
   Mail,
   Twitter,
 } from "../components/Svg/Svg";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import EmailToMe from "../components/EmailToMe";
 import contact_banner from "../Assets/contact.jpg"
 
@@ -36,16 +36,20 @@ const ContactPage = () => {
               svg={<Call />}
               waytocontact={"PHONE"}
               contentofway={"+91 9151041415"} />
-            <ContactMethod
+            <NavLink to="mailto:hr@keplervoice.com?subject=Inquiry"  target="_blank" alt="email" className="link_email" ><ContactMethod
               svg={<Mail />}
               waytocontact={"EMAIL"}
               contentofway={"hr@keplervoice.com"} />
+              </NavLink>
             <ContactMethod
               svg={<Location />}
               waytocontact={"LOCATION"}
               contentofway={"43/33 T.B Sapru Road,Civil Lines,Prayagraj 211012"} />
           </div>
-          <div className="icon_portion">
+          <div className="map_portion">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.4134195876063!2d81.83395687517253!3d25.457867277544114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399acb19337fc495%3A0x5bdc100cc9b2941d!2sKepler%20Voice!5e0!3m2!1sen!2sin!4v1715065398926!5m2!1sen!2sin" width="600" height="400"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          {/* <div className="icon_portion">
             <Link
               to="https://www.facebook.com/keplervoice"
               className="link_css"
@@ -70,7 +74,7 @@ const ContactPage = () => {
             >
               <Linkedin />
             </Link>
-          </div>
+          </div> */}
         </div>
 
         {/* <div className="contact_form">

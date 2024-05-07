@@ -6,14 +6,14 @@ const DetailBPON = () => {
     <div>
       <div className="servicesImages"><img src={bpon} alt="bpo" /></div>
     <div className="features-bg">
-      <h1 className="features-heading">BPO Non-Voice Services</h1>
-      <h2>Elevate Your Customer Engagement</h2>
+      <h1 className="about_heading">BPO Non-Voice Services</h1>
+      <h2 className='sub_head'>Elevate Your Customer Engagement</h2>
     </div>
 
     <div className="container">
       <div className="border-boxing">
-        <h1 className="about_heading">Email Services</h1>
-        <h2>Efficient Correspondence, Satisfied Customers</h2>
+        <h1 className="">Email Services</h1>
+        <h2 className='sub_head_2'>Efficient Correspondence, Satisfied Customers</h2>
         <p className="about_paragraph_sub">
           <p>
             <strong>Efficient Email Management:</strong>
@@ -61,9 +61,9 @@ const DetailBPON = () => {
      
 
     
-      <div className="text_portion">
-        <h1 className="about_heading">Chat Services</h1>
-        <h2>Real-time Support, Real-time Results</h2>
+      <div className="">
+        <h1 className="">Chat Services</h1>
+        <h2 className='sub_head_2'>Real-time Support, Real-time Results</h2>
         <p className="about_paragraph_sub">
           <p>
             <strong>Real-time Chat Support:</strong>

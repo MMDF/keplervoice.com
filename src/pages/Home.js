@@ -33,9 +33,9 @@ const Home = () => {
           <Nav />
           <div class="content">
             <div class="text-box">
-              <p className="tagline">Dream Big. Build Bigger.</p>
-              <h1>Empowering Your Business with Innovative Solutions</h1>
-              <h2>DRIVING SUCCESS</h2>
+              <h1 className="">Dream Big. Build Bigger.</h1>
+              <h2>Empowering Your Business with Innovative Solutions</h2>
+              <h2>Driving success</h2>
             </div>
           </div>
         </div>

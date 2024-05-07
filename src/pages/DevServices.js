@@ -15,7 +15,7 @@ const DevServices = () => {
     <div className="container">
       <div className="border-boxing">
       <div className="text_portion">
-        <h1 className="about_heading">WEB DEVELOPMENT</h1>
+        <h1 className="">WEB DEVELOPMENT</h1>
         <h2>Grow your online presence</h2>
         <p className="about_paragraph_sub">
           <p>
@@ -65,7 +65,7 @@ const DevServices = () => {
 
     
       <div className="text_portion">
-        <h1 className="about_heading">LOGO DESIGN</h1>
+        <h1 className="">LOGO DESIGN</h1>
         <h2>Leave a Lasting Impression</h2>
         <p className="about_paragraph_sub">
           <p>
@@ -113,7 +113,7 @@ const DevServices = () => {
 
    
       <div className="text_portion">
-        <h1 className="about_heading">WEB HOSTING</h1>
+        <h1 className="">WEB HOSTING</h1>
         <h2>Secure, Reliable, Scalable</h2>
         <p className="about_paragraph_sub">
           <p>

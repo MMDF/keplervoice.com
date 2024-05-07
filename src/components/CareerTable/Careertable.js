@@ -1,5 +1,6 @@
 import React from "react";
 import "./career.css";
+import { Link } from "react-router-dom";
 
 function Careertable() {
   return (
@@ -17,14 +18,14 @@ function Careertable() {
             <td>Graphic Designer</td>
             <td>Internship</td>
             <td>
-              <a href="#" alt="apply now">Apply Now</a>
+            <Link to="https://forms.gle/hH2tkoBES5BAhTN28" target="_blank" className="font_apply"><p>Apply Now</p></Link>
             </td>
           </tr>
           <tr>
             <td>Backend Developer</td>
             <td>Full Time</td>
             <td>
-              <a href="#" alt="apply now">Apply Now</a>
+            <Link to="https://forms.gle/hH2tkoBES5BAhTN28" target="_blank" className="font_apply"><p>Apply Now</p></Link>
             </td>
           </tr>
         </tbody>

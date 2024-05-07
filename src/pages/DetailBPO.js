@@ -7,18 +7,18 @@ const DetailBPO = () => {
     <div className="bg-color">
       <div className="servicesImages"><img src={bpo} alt="bpo" /></div>
       <div className="features-bg">
-        <h1 className="features-heading">BPO Voice Services</h1>
-        <h2 >
+        <h1 className="about_heading">BPO Voice Services</h1>
+        <h2 className="sub_head" >
           Elevate Your Customer Communication with KeplerVoice
         </h2>
       </div>
 
       <div class="container">
         <section class="border-boxing">
-          <h2 className="about_heading">
+          <h2 className="sub_head_2">
             Inbound Services: Your 24/7 Customer Support Partner
           </h2>
-          <h3>Always Available:</h3>
+          <h2>Always Available:</h2>
           <p className="about_paragraph_sub">
             <p>
               Our Inbound Services offer round-the-clock customer support,

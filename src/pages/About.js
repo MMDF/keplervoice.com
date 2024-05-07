@@ -13,13 +13,13 @@ const About = () => {
       <div className="servicesImages"><img src={about} loading="lazy" alt="about" /></div>
       <div className="About_Us">
         <h1 className="about_heading">ABOUT US</h1>
-        <p className="about_paragraph">Dream BIG BUILD BIGGER</p>
+        {/* <h2 className="about_paragraph">DREAM BIG BUILD BIGGER</h2> */}
       </div>
       <div className="Empowering_portion">
         <div className="text_portion">
-          <h1 className="about_heading">Empowering Innovation</h1>
+          <h1 className="about_paragraph">Empowering Innovation</h1>
           <h2 className="about_subheading">Our Mission to Revolutionize the Business Landscape</h2>
-          <p className="about_paragraph_sub">
+          <p className="about_paragraph_sub_right">
             At Kepler Voice, our mission is to provide businesses with
             innovative and sustainable Business and IT Solutions to optimize
             their operations and make a positive impact globally. We offer
@@ -43,9 +43,9 @@ const About = () => {
           <img src={imagefuture} loading="lazy" alt="imagefuture" className="image_emporing" />
         </div>
         <div className="text_portion">
-          <h1 className="about_heading">Transitioning to a Smarter Future</h1>
+          <h1 className="about_paragraph">Transitioning to a Smarter Future</h1>
           <h2 className="about_subheading">Our Innovative Solutions for Business Operations</h2>
-          <p className="about_paragraph_sub">
+          <p className="about_paragraph_sub_left">
             Our world is constantly changing, and technology is driving that
             change faster than ever. At our company, we recognize the need to
             stay at the forefront of this transition and help our clients

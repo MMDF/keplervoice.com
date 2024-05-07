@@ -7,7 +7,7 @@ const DetailGlobalService = () => {
       <div className="servicesImages"><img src={global} alt="bpo" /></div>
     <div className="features-bg">
       <h1 className="about_heading">Global Support Services</h1>
-      <p className="about_paragraph">
+      <p className="sub_head">
         Infinite Possibilities, Tailored to Perfection
       </p>
     </div>
@@ -15,7 +15,7 @@ const DetailGlobalService = () => {
     <div className="container">
       <div className="border-boxing">
       <div className="text_portion">
-        <h1 className="about_heading">The Power of Combinatorial Support</h1>
+        <h1 className="">The Power of Combinatorial Support</h1>
         <h2>Integrated Excellence</h2>
         <p className="about_paragraph_sub">
           Our services are not standalone; they are threads in a tapestry that
@@ -72,7 +72,7 @@ const DetailGlobalService = () => {
 
     
       <div className="text_portion">
-        <h1 className="about_heading">
+        <h1 className="">
           Crafting Your Tailored Support Strategy
         </h1>
         <h2>Comprehensive Assessment</h2>
