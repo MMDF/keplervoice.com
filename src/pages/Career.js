@@ -11,7 +11,7 @@ function Career() {
     <div className="servicesImages"><img src={career_banner} loading="lazy" alt="about" /></div>
       <div className="careers-info">
         <h1 className="about_heading">Careers</h1>
-        <h2 className="">
+        <h2 className="career-subheading">
           Join Our Visionary Mission to Transform Businesses Through Innovation
           and Excellence
         </h2>
