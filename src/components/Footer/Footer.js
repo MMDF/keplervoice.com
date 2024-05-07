@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="content_portion">
             {/* <h3 className="logo_color">Kepler Voice</h3> */}
             <img className="logo-resize" src={logo} alt="kepler img" />
-            <p>
+            <p className="para_footer">
               Kepler Voice is a brand of Keplenet Infotech Pvt Ltd, dedicated to
               providing high-quality business consulting services. Our team of
               sales experts and IT professionals bring the highest level of

@@ -432,7 +432,7 @@
     
     .blog-content {
       position: absolute;
-      text-align: left;
+      text-align: justify;
       background-color: rgba(255, 255, 255, 0.9);
       width: 35%;
       top: 50%;

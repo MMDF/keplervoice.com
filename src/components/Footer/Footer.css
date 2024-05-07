@@ -55,7 +55,10 @@ ul {
   
 .copywrite_portion span{
     color: #7efde0;
-}  
+} 
+.para_footer{
+  text-align: justify;
+} 
 @media only screen and (max-width: 786px) {
     .footer{
         padding:10px;
