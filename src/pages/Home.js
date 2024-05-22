@@ -15,6 +15,7 @@ import { Link } from "react-router-dom";
 import Nav from "../components/Navbar/Nav";
 import abtpic from "../Assets/callgirl.jpeg";
 import poster from "../Assets/poster.png";
+import AutoSlider from "../components/Slider/AutoSlider";
 
 const Home = () => {
   return (
@@ -149,6 +150,7 @@ const Home = () => {
             />
           </div>
         </div>
+        <AutoSlider/>
         {/* </div> */}
       </div>
     </>
